@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Meet Mochi | Portfolio</title>
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Portfolio of Meet Mochi — MCA student and Web Developer specializing in PHP, Web Design, and Frontend Development." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Meet Mochi<span class="brand-sub"> — Portfolio</span></a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact" class="cta">Contact</a>
+      </nav>
+      <button id="mobileToggle" class="mobile-toggle" aria-label="menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <p class="eyebrow">Creative Developer & Designer</p>
+          <h1 class="hero-title">
+            Hello, I'm <span class="hero-sub">Meet Mochi</span>
+          </h1>
+
+          <p class="hero-desc">
+            I’m currently pursuing my <strong>Master of Computer Applications (MCA)</strong> and passionate about building functional, visually appealing, and responsive web applications.
+            I focus on JAVA, PYTHON, PHP, JavaScript, and clean UI design that delivers smooth user experiences.
+          </p>
+
+          <div class="hero-ctas">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-outline">Hire Me</a>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <div class="stat-num">10+</div>
+              <div class="stat-label">Projects Completed</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">5+</div>
+              <div class="stat-label">Happy Clients</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="laptop-mock">
+            <img src="assets/mp.jpg" alt="Profile" class="profile-photo" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section about">
+      <div class="container about-grid">
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>
+            I'm a passionate web developer currently pursuing a <strong>Master’s degree in Computer Applications (MCA)</strong>.  
+            I specialize in creating PHP-based web applications, including billing systems, inventory management tools, and custom dashboards.
+          </p>
+
+          <ul class="bullets">
+            <li>Strong in HTML, CSS, JavaScript, JAVA and PHP</li>
+            <li>Experienced with MySQL, DOMPDF, and WhatsApp API integration</li>
+            <li>Dedicated to building responsive and visually engaging user interfaces</li>
+          </ul>
+
+          <a class="btn btn-outline" href="#contact">Get in touch</a>
+        </div>
+
+        <aside class="about-cards">
+          <div class="card small">
+            <div class="card-top">95%</div>
+            <div class="card-body">Client satisfaction through quality and performance</div>
+          </div>
+
+          <div class="card small profile">
+            <img src="assets/mp.jpg" alt="Profile" />
+            <div>
+              <div class="card-title">Meet Mochi</div>
+              <div class="card-sub">Web Developer | MCA Student</div>
+            </div>
+          </div>
+
+          <div class="card small">
+            <div class="card-body">I enjoy turning ideas into real, user-friendly digital products.</div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2>My Projects</h2>
+        <p class="muted">Some of my best works — click for more details</p>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <img src="assets/ma.jpg" alt="Project thumbnail" />
+            <div class="project-meta">
+              <h3>LavnayaBill (Billing System)</h3>
+              <p>PHP-based billing system with WhatsApp sharing integration and auto PDF generation.</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/ban.jpg" alt="Project thumbnail" />
+            <div class="project-meta">
+              <h3>Cricket Score Manager</h3>
+              <p>Tracks over-by-over details with real-time updates and player stats dashboard.</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/rr.jpg" alt="Project thumbnail" />
+            <div class="project-meta">
+              <h3>Portfolio Website</h3>
+              <p>My personal responsive portfolio built using HTML, CSS, and JavaScript (Dark Theme).</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section experience">
+      <div class="container">
+        <h2>Experience & Learning</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-left">
+              <strong>Freelance Developer</strong>
+              <span class="muted">2024 — Present</span>
+            </div>
+            <div class="timeline-right">
+              <p>Working on web development projects including billing systems, websites, and business tools using JAVA, HTML, and CSS.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-left">
+              <strong>Intern - Frontend Developer</strong>
+              <span class="muted">April 2025 — July 2025</span>
+            </div>
+            <div class="timeline-right">
+              <p>Assisted in creating responsive layouts, improving site performance, and integrating databases.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+      <div class="container contact-grid">
+        <div>
+          <h2>Contact Me</h2>
+          <p>If you’d like to collaborate or discuss a project, feel free to reach out. I usually respond within 24 hours.</p>
+
+          <ul class="contact-list">
+            <li><strong>Email:</strong> <a href="mailto:mochimeet141@gmail.com">mochimeet141@gmail.com</a></li>
+            <li><strong>WhatsApp:</strong> <a href="https://wa.me/919033012319" target="_blank" rel="noopener">+91 90330 12319</a></li>
+            <li><strong>Location:</strong> India</li>
+          </ul>
+        </div>
+
+        <form class="contact-form" action="mailto:mochimeet141@gmail.com" method="post" enctype="text/plain">
+          <label>
+            Name
+            <input name="Name" type="text" placeholder="Your name" required>
+          </label>
+
+          <label>
+            Email
+            <input name="Email" type="email" placeholder="you@example.com" required>
+          </label>
+
+          <label>
+            Message
+            <textarea name="Message" rows="5" placeholder="Tell me about your project..." required></textarea>
+          </label>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <nav class="footer-nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+      </nav>
+
+      <div class="footer-right">
+        <span class="email">mochimeet141@gmail.com</span>
+        <div class="social">
+          <a href="#" aria-label="github">GH</a>
+          <a href="#" aria-label="linkedin">LI</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
